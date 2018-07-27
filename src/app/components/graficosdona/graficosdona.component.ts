@@ -9,7 +9,7 @@ export class GraficosdonaComponent implements OnInit {
 
   @Input('ChartData') doughnutChartData:number[] = [];
   @Input('ChartLabels') doughnutChartLabels:string[] = [];
-  @Input('ChartType') doughnutChartType:string = 'doughnut';
+  @Input('chartType') doughnutChartType:string = 'doughnut';
 
   constructor() { }
 

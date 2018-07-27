@@ -10,6 +10,7 @@ import { PAGES_ROUTES } from './pages.routes';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { ChartsModule } from 'ng2-charts';
 import { GraficosdonaComponent } from '../components/graficosdona/graficosdona.component';
+import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
 
 
 
@@ -20,7 +21,8 @@ import { GraficosdonaComponent } from '../components/graficosdona/graficosdona.c
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficosdonaComponent
+        GraficosdonaComponent,
+        AccoutSettingsComponent
     ],
     exports: [
         DashboardComponent,
